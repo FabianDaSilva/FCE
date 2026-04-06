@@ -23,6 +23,15 @@ switch (opcion)
     case "6":
         Ejercicio6(); break;
 
+    case "7":
+        Ejercicio7(); break;
+
+    case "8":
+        Ejercicio8(); break;
+
+    case "9":
+        Ejercicio9(); break;
+
     default:
         Console.WriteLine("No hay mas ejercicios para ejecutar");
         break;
@@ -235,6 +244,189 @@ static void Ejercicio6()
         Console.WriteLine("No hay coincidencia");
 
 
+    }
+
+}
+
+static void Ejercicio7()
+{
+    /* 
+    Varibles:
+    nombre, nota
+    totalAlumnos
+    continuar
+    
+    Arrays:
+    notas
+    alumnos
+
+    Funciones:
+    -Pedir datos para el ingreso de nombre y nota
+    -Listar alumnos aprobados
+     */
+
+    string nombre, continuar;
+    double nota;
+    int totalAlumnos = 0;
+
+
+    double[] notas = new double[10];
+    string[] alumnos = new string[10];
+
+    do
+    {
+        System.Console.WriteLine("Ingresa el nombre del alumno:");
+
+        nombre = Console.ReadLine() ?? "";
+        while (string.IsNullOrEmpty(nombre))
+        {
+            System.Console.WriteLine("Por favor ingresa un nombre valido: ");
+            nombre = Console.ReadLine() ?? "";
+        }
+        alumnos[totalAlumnos] = nombre;
+
+        do
+        {
+            System.Console.WriteLine("Ingresa una nota de 1 - 10: ");
+        } while (!double.TryParse(Console.ReadLine(), out nota) || nota < 1 || nota > 10);
+
+        notas[totalAlumnos] = nota;
+
+        totalAlumnos++;
+
+        System.Console.WriteLine("Desea continuar? \n s:(si) \n n:(no)");
+        continuar = Console.ReadLine();
+    } while (continuar == "s");
+    System.Console.WriteLine($"Cantidad de alumnos ingresados: {totalAlumnos}");
+
+
+
+    Console.WriteLine($"Lista de alumnos aprobados: ");
+    for (int i = 0; i < totalAlumnos; i++)
+    {
+        if (notas[i] >= 6)
+        {
+
+            Console.WriteLine($"{alumnos[i]} - {notas[i]}");
+        }
+    }
+}
+
+static void Ejercicio8()
+{
+    /* 
+    Variables:
+    totalClientes
+    continuar
+
+    Arrays:
+    codigoCliente
+    razonSocial
+    ventaPeriodo
+
+    Funciones:
+    ClienteQueMásVendio()
+    ClienteQueMenosVendio()
+    PromedioVentas()
+     */
+
+    int totalClientes = 0;
+    string continuar;
+    string codigoCliente, razonSocial;
+    double venta;
+
+    string[] codigoCliente_lista = new string[10];
+    string[] razonSocial_lista = new string[10];
+    double[] ventaPeriodo_lista = new double[10];
+
+
+    do
+    {
+        System.Console.WriteLine("Ingresar código de cliente: ");
+        codigoCliente = Console.ReadLine() ?? "";
+
+        while (string.IsNullOrEmpty(codigoCliente))
+        {
+            System.Console.WriteLine("Por favor ingresa el codigo. ");
+            codigoCliente = Console.ReadLine() ?? "";
+        }
+        codigoCliente_lista[totalClientes] = codigoCliente;
+
+
+        System.Console.WriteLine("Ingresar razon social: ");
+        razonSocial = Console.ReadLine() ?? "";
+
+        while (string.IsNullOrEmpty(razonSocial))
+        {
+            System.Console.WriteLine("Por favor ingresa la razon social. ");
+            razonSocial = Console.ReadLine() ?? "";
+        }
+        razonSocial_lista[totalClientes] = razonSocial;
+
+
+        do
+        {
+            System.Console.WriteLine("Ingresa el monto de la venta: ");
+        } while (!double.TryParse(Console.ReadLine(), out venta) || venta < 0);
+        ventaPeriodo_lista[totalClientes] = venta;
+
+
+        ventaPeriodo_lista[totalClientes] = venta;
+
+        totalClientes++;
+
+        System.Console.WriteLine("Desea continuar? \n s:(si) \n n:(no)");
+        continuar = Console.ReadLine();
+
+    } while (continuar == "s");
+
+
+    double ventaMax = ventaPeriodo_lista[0];
+    double ventaMin = ventaPeriodo_lista[0];
+    int indiceMax = 0;
+    int indiceMin = 0;
+
+    for (int i = 0; i < totalClientes; i++)
+    {
+        if (ventaPeriodo_lista[i] > ventaMax)
+        {
+            ventaMax = ventaPeriodo_lista[i];
+            indiceMax = i;
+        }
+        if (ventaPeriodo_lista[i] < ventaMin)
+        {
+            ventaMin = ventaPeriodo_lista[i];
+            indiceMin = i;
+        }
+
+    }
+
+    Console.WriteLine($"Mayor venta: {razonSocial_lista[indiceMax]} - ${ventaMax}");
+    Console.WriteLine($"Menor venta: {razonSocial_lista[indiceMin]} - ${ventaMin}");
+}
+
+static void Ejercicio9()
+{
+    string[] Lista = { "Ana", "Zebra", "Mario", "Carlos", "Bruno" };
+
+    // Ordenar
+    for (int i = 0; i < Lista.Length - 1; i++)
+    {
+        for (int j = 0; j < Lista.Length - 1; j++)
+        {
+            if (String.Compare(Lista[j], Lista[j + 1]) > 0)
+            {
+                string aux = Lista[j];
+                Lista[j] = Lista[j + 1];
+                Lista[j + 1] = aux;
+            }
+        }
+    }
+
+    // Imprimir ya ordenado
+    for (int i = 0; i < Lista.Length; i++)
+    {
+        Console.WriteLine(Lista[i]);
     }
 
 }
