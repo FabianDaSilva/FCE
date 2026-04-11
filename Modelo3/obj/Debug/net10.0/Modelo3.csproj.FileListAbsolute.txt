@@ -1,0 +1,15 @@
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\bin\Debug\net10.0\Modelo3.exe
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\bin\Debug\net10.0\Modelo3.deps.json
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\bin\Debug\net10.0\Modelo3.runtimeconfig.json
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\bin\Debug\net10.0\Modelo3.dll
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\bin\Debug\net10.0\Modelo3.pdb
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\Modelo3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\Modelo3.AssemblyInfoInputs.cache
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\Modelo3.AssemblyInfo.cs
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\Modelo3.csproj.CoreCompileInputs.cache
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\Modelo3.sourcelink.json
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\Modelo3.dll
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\refint\Modelo3.dll
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\Modelo3.pdb
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\Modelo3.genruntimeconfig.cache
+C:\Users\gonza\OneDrive\Escritorio\FCE\Modelo3\obj\Debug\net10.0\ref\Modelo3.dll
