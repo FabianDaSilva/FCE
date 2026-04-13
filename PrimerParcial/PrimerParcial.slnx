@@ -9,6 +9,9 @@
     <Project Path="PracticaParciales/Parcial1/Parcial1.csproj" />
     <Project Path="PracticaParciales/PracticaParcial/PracticaParcial.csproj" />
   </Folder>
+  <Folder Name="/PracticaParciales/1C2026PrimerParcial/">
+    <Project Path="PracticaParciales/1C2026PrimerParcial/1C2026PrimerParcial/1C2026PrimerParcial.csproj" />
+  </Folder>
   <Folder Name="/Unidades/">
     <Project Path="Unidades/Unidad1/Unidad1.csproj" />
     <Project Path="Unidades/Unidad2/Unidad2.csproj" />

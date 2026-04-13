@@ -1,0 +1,15 @@
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\bin\Debug\net10.0\1C2026PrimerParcial.exe
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\bin\Debug\net10.0\1C2026PrimerParcial.deps.json
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\bin\Debug\net10.0\1C2026PrimerParcial.runtimeconfig.json
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\bin\Debug\net10.0\1C2026PrimerParcial.dll
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\bin\Debug\net10.0\1C2026PrimerParcial.pdb
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\1C2026PrimerParcial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\1C2026PrimerParcial.AssemblyInfoInputs.cache
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\1C2026PrimerParcial.AssemblyInfo.cs
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\1C2026PrimerParcial.csproj.CoreCompileInputs.cache
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\1C2026PrimerParcial.sourcelink.json
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\1C2026PrimerParcial.dll
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\refint\1C2026PrimerParcial.dll
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\1C2026PrimerParcial.pdb
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\1C2026PrimerParcial.genruntimeconfig.cache
+C:\Users\gonza\OneDrive\Escritorio\FCE\PrimerParcial\PracticaParciales\1C2026PrimerParcial\1C2026PrimerParcial\obj\Debug\net10.0\ref\1C2026PrimerParcial.dll
