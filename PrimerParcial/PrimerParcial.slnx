@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/PracticaParciales/">
+    <Project Path="PracticaParciales/2C2025PrimerParcial/2C2025PrimerParcial.csproj" />
+    <Project Path="PracticaParciales/EjerciciosPrimerParcial/EjerciciosPrimerParcial.csproj" />
+    <Project Path="PracticaParciales/Modelo1/Modelo1.csproj" />
+    <Project Path="PracticaParciales/Modelo2/Modelo2.csproj" />
+    <Project Path="PracticaParciales/Modelo3/Modelo3.csproj" />
+    <Project Path="PracticaParciales/Modelo4/Modelo4.csproj" />
+    <Project Path="PracticaParciales/Parcial1/Parcial1.csproj" />
+    <Project Path="PracticaParciales/PracticaParcial/PracticaParcial.csproj" />
+  </Folder>
+  <Folder Name="/Unidades/">
+    <Project Path="Unidades/Unidad1/Unidad1.csproj" />
+    <Project Path="Unidades/Unidad2/Unidad2.csproj" />
+  </Folder>
+</Solution>
